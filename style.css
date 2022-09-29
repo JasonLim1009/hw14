@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #fafafa;
+    background-color: #c6bebe;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,10 +18,10 @@ body{
 
 .magic{
     background-color: #f9ca24;
-    color: #fff;
+    color: rgb(226, 50, 250);
     font-family: 'Poppins', sans-serif;
     border: 0;
-    border-radius: 3px;
+    border-radius: 10px;
     font-size: 16px;
     padding: 12px 20px;
     cursor: pointer;
@@ -30,6 +30,10 @@ body{
     letter-spacing: 1px;
     box-shadow: 0 3px rgba(249, 202, 36, 0.5);
     z-index: 100;
+}
+
+.magic:hover {
+    background-color: #d3af2a;
 }
 
 .magic:focus{
